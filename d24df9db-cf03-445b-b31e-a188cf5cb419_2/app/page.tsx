@@ -79,10 +79,10 @@ export default function Home() {
     }
   ];
 
-  const handleDownload = (platform) => {
-    setShowDownloadModal(true);
-    setTimeout(() => setShowDownloadModal(false), 2000);
-  };
+ const handleDownload = (platform: string) => {
+  setShowDownloadModal(true);
+  setTimeout(() => setShowDownloadModal(false), 2000);
+};
 
   const handleReportItem = () => {
     setShowReportModal(true);
