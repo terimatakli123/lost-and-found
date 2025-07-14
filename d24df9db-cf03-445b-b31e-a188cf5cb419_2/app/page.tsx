@@ -138,7 +138,7 @@ export default function Home() {
                 <textarea 
                   className="w-full p-3 border border-gray-200 rounded-xl h-20 resize-none"
                   placeholder="Describe the item you found..."
-                  maxLength="500"
+                  maxLength={500}
                 ></textarea>
               </div>
               
